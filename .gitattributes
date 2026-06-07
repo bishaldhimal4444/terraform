@@ -1,0 +1,7 @@
+# Force Terraform files to always use LF
+*.tf text eol=lf
+*.hcl text eol=lf
+*.sh text eol=lf
+
+# Auto-detect everything else
+* text=auto

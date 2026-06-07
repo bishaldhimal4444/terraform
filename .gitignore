@@ -1,0 +1,20 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+
+# Terraform variables (can contain secrets)
+*.tfvars
+*.tfvars.json
+
+# Local CLI config
+.terraformrc
+terraform.rc
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
